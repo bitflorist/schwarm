@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "schwarm",
-      "source": ".",
+      "source": "./",
       "description": "Multi-stream orchestration: parallel streams, multi-model chat, GSD-compatible PM",
       "version": "0.1.0",
       "author": {
