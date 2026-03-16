@@ -1,0 +1,27 @@
+{
+  "name": "schwarm",
+  "owner": {
+    "name": "bitflorist",
+    "email": "radosch@me.com"
+  },
+  "metadata": {
+    "description": "Multi-stream orchestration for Claude Code — parallel development with multi-model deliberation",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "schwarm",
+      "source": ".",
+      "description": "Multi-stream orchestration: parallel streams, multi-model chat, GSD-compatible PM",
+      "version": "0.1.0",
+      "author": {
+        "name": "bitflorist"
+      },
+      "homepage": "https://github.com/bitflorist/schwarm",
+      "repository": "https://github.com/bitflorist/schwarm",
+      "license": "MIT",
+      "keywords": ["orchestration", "multi-model", "multi-stream", "project-management"],
+      "category": "productivity"
+    }
+  ]
+}
