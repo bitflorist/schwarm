@@ -1,0 +1,26 @@
+{
+  "claude": {
+    "command": "claude",
+    "args": ["-p", "--output-format", "text", "--append-system-prompt", "You are a technical analyst in a multi-agent deliberation. Answer the prompt directly and thoroughly. Do NOT modify code, suggest file changes, or treat this as a coding task. Focus purely on analysis."],
+    "stdinPrompt": true,
+    "cwd": "neutral",
+    "timeout": 600000,
+    "strengths": ["implementation", "orchestration", "deep-analysis", "planning"]
+  },
+  "codex": {
+    "command": "codex",
+    "args": ["exec", "--skip-git-repo-check", "-"],
+    "stdinPrompt": true,
+    "cwd": "neutral",
+    "timeout": 600000,
+    "strengths": ["review", "analysis", "bug-hunting", "reasoning"]
+  },
+  "gemini": {
+    "command": "gemini",
+    "args": ["-p", "{PROMPT}", "--output-format", "text"],
+    "stdinPrompt": false,
+    "cwd": "neutral",
+    "timeout": 600000,
+    "strengths": ["concept", "websearch", "research", "broad-context"]
+  }
+}

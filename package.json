@@ -1,0 +1,45 @@
+{
+  "name": "@bitflorist/schwarm",
+  "version": "0.1.0",
+  "description": "Multi-stream orchestration plugin for Claude Code — parallel development with multi-model deliberation",
+  "type": "module",
+  "author": "bitflorist",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitflorist/schwarm.git"
+  },
+  "homepage": "https://github.com/bitflorist/schwarm#readme",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "orchestration",
+    "multi-model",
+    "multi-stream",
+    "project-management",
+    "gsd-compatible",
+    "swarm-intelligence"
+  ],
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "agents/",
+    "skills/",
+    "hooks/",
+    "scripts/",
+    "config/",
+    "bin/",
+    "src/",
+    "templates/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "bin": "./bin/run",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

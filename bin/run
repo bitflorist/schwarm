@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Schwarm — Multi-LLM Agent Dispatcher
+# Thin wrapper to invoke orchestrator.ts with Node's native TypeScript support
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+exec node --experimental-strip-types "$SCRIPT_DIR/../src/orchestrator.ts" "$@"
