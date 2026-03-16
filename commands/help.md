@@ -4,6 +4,12 @@ allowed-tools: []
 disable-model-invocation: true
 ---
 
+```
+    🐝 SCHWARM — Multi-Agent Orchestration
+    ═══════════════════════════════════════
+    Streams · Chat · Pick · Sync · Setup
+```
+
 # Schwarm Plugin — Help
 
 ## Quick Start (5 Steps)
